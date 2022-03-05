@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C413879427C8129A00362FEE /* BirthdaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413879327C8129A00362FEE /* BirthdaysTableViewController.swift */; };
 		C496BE1D27BC137100B7C40A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496BE1C27BC137100B7C40A /* AppDelegate.swift */; };
 		C496BE1F27BC137100B7C40A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496BE1E27BC137100B7C40A /* SceneDelegate.swift */; };
-		C496BE2127BC137100B7C40A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496BE2027BC137100B7C40A /* ViewController.swift */; };
+		C496BE2127BC137100B7C40A /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C496BE2027BC137100B7C40A /* AddBirthdayViewController.swift */; };
 		C496BE2427BC137100B7C40A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C496BE2227BC137100B7C40A /* Main.storyboard */; };
 		C496BE2727BC137100B7C40A /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C496BE2527BC137100B7C40A /* BirthdayTracker.xcdatamodeld */; };
 		C496BE2927BC137300B7C40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C496BE2827BC137300B7C40A /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C413879327C8129A00362FEE /* BirthdaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTableViewController.swift; sourceTree = "<group>"; };
 		C496BE1927BC137100B7C40A /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C496BE1C27BC137100B7C40A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C496BE1E27BC137100B7C40A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C496BE2027BC137100B7C40A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C496BE2027BC137100B7C40A /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
 		C496BE2327BC137100B7C40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C496BE2627BC137100B7C40A /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
 		C496BE2827BC137300B7C40A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,12 +62,13 @@
 			children = (
 				C496BE1C27BC137100B7C40A /* AppDelegate.swift */,
 				C496BE1E27BC137100B7C40A /* SceneDelegate.swift */,
-				C496BE2027BC137100B7C40A /* ViewController.swift */,
+				C496BE2027BC137100B7C40A /* AddBirthdayViewController.swift */,
 				C496BE2227BC137100B7C40A /* Main.storyboard */,
 				C496BE2827BC137300B7C40A /* Assets.xcassets */,
 				C496BE2A27BC137300B7C40A /* LaunchScreen.storyboard */,
 				C496BE2D27BC137300B7C40A /* Info.plist */,
 				C496BE2527BC137100B7C40A /* BirthdayTracker.xcdatamodeld */,
+				C413879327C8129A00362FEE /* BirthdaysTableViewController.swift */,
 			);
 			path = BirthdayTracker;
 			sourceTree = "<group>";
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C496BE2127BC137100B7C40A /* ViewController.swift in Sources */,
+				C413879427C8129A00362FEE /* BirthdaysTableViewController.swift in Sources */,
+				C496BE2127BC137100B7C40A /* AddBirthdayViewController.swift in Sources */,
 				C496BE1D27BC137100B7C40A /* AppDelegate.swift in Sources */,
 				C496BE1F27BC137100B7C40A /* SceneDelegate.swift in Sources */,
 				C496BE2727BC137100B7C40A /* BirthdayTracker.xcdatamodeld in Sources */,
@@ -296,9 +300,11 @@
 				DEVELOPMENT_TEAM = 34Q7SMW5N8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BirthdayTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Дни рождения";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,7 +316,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,9 +330,11 @@
 				DEVELOPMENT_TEAM = 34Q7SMW5N8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BirthdayTracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Дни рождения";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,7 +346,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
